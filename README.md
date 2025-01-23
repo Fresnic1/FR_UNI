@@ -1,28 +1,22 @@
-## FR_UNI - Penetration Testing Tool
+# FR_UNI - Penetration Testing Tool
 
 Welcome to FR_UNI! This README will guide you through the process of setting up and using FR_UNI on macOS, Linux (all major distributions), and Windows.
 
-```Table of Contents```
-
-## System Requirements
-
-## Installation Instructions
-
-`macOS`
-
-`Linux`
-
-`Windows`
-
-## Usage
-
-## Uninstallation
-
-## Troubleshooting
+# Table of Contents
 
 ```System Requirements```
 
-To use FR_UNI, ensure your system meets the following requirements:
+```Installation Instructions```
+
+```Usage```
+
+```Uninstallation```
+
+```Troubleshooting```
+
+# System Requirements
+
+**To use FR_UNI, ensure your system meets the following requirements:**
 
 `Processor: 64-bit CPU`
 
@@ -34,154 +28,154 @@ To use FR_UNI, ensure your system meets the following requirements:
 
 Dependencies: Listed in `requirements.txt`
 
-```Installation Instructions```
+# Installation Instructions
 
-`macOS`
+## macOS
 
-Install Homebrew:
+**Install Homebrew:**
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-Install Python (if not already installed):
+**Install Python (if not already installed):**
 
 `brew install python`
 
-Clone the Repository:
+**Clone the Repository:**
 
 `git clone https://github.com/your-repository/FR_UNI.git`
 `cd FR_UNI`
 
-Install Dependencies:
+**Install Dependencies:**
 
 `pip3 install -r requirements.txt`
 
-Run FR_UNI:
+**Run FR_UNI:**
 
 `python3 fr_uni.py`
 
-```Linux```
+## Linux
 
-```Debian/Ubuntu-Based Distributions```
+## Debian/Ubuntu-Based Distributions
 
-Update Packages:
+**Update Packages:**
 
 `sudo apt update && sudo apt upgrade`
 
-Install Python:
+**Install Python:**
 
 `sudo apt install python3 python3-pip git -y`
 
-Clone the Repository:
+**Clone the Repository:**
 
 `git clone https://github.com/your-repository/FR_UNI.git`
 `cd FR_UNI`
 
-Install Dependencies:
+**Install Dependencies:**
 
 `pip3 install -r requirements.txt`
 
-Run FR_UNI:
+**Run FR_UNI:**
 
 `python3 fr_uni.py`
 
 ```Fedora/CentOS/RHEL-Based Distributions```
 
-Update Packages:
+**Update Packages:**
 
 `sudo dnf update`
 
-Install Python:
+**Install Python:**
 
 `sudo dnf install python3 python3-pip git -y`
 
-Clone the Repository:
+**Clone the Repository:**
 
 `git clone https://github.com/your-repository/FR_UNI.git`
 `cd FR_UNI`
 
-Install Dependencies:
+**Install Dependencies:**
 
 `pip3 install -r requirements.txt`
 
-Run FR_UNI:
+**Run FR_UNI:**
 
 `python3 fr_uni.py`
 
-```Arch-Based Distributions```
+## Arch-Based Distributions
 
-Update Packages:
+**Update Packages:**
 
 `sudo pacman -Syu`
 
-Install Python:
+**Install Python:**
 
 `sudo pacman -S python python-pip git`
 
-Clone the Repository:
+**Clone the Repository:**
 
 `git clone https://github.com/your-repository/FR_UNI.git`
 `cd FR_UNI`
 
-Install Dependencies:
+**Install Dependencies:**
 
 `pip3 install -r requirements.txt`
 
-Run FR_UNI:
+**Run FR_UNI:**
 
 `python3 fr_uni.py`
 
 ```Windows```
 
-Install Python:
+**Install Python:**
 
 `Download Python from python.org.`
 
-`Ensure to select "Add Python to PATH" during installation.`
+*Ensure to select "Add Python to PATH" during installation.*
 
-Install Git:
+**Install Git:**
 
 `Download Git from git-scm.com and install it.`
 
-Clone the Repository:
+**Clone the Repository:**
 
-Open Command Prompt or PowerShell and run:
+*Open Command Prompt or PowerShell and run:*
 
 `git clone https://github.com/your-repository/FR_UNI.git`
 `cd FR_UNI`
 
-Install Dependencies:
+**Install Dependencies:**
 
 `pip install -r requirements.txt`
 
-Run FR_UNI:
+**Run FR_UNI:**
 
 `python fr_uni.py`
 
-## Usage
+# Usage
 
-Navigate to the FR_UNI directory:
+**Navigate to the FR_UNI directory:**
 
 `cd /path/to/FR_UNI`
 
-Execute the main script:
+**Execute the main script:**
 
 `python3 fr_uni.py`
 
-Follow the on-screen prompts to perform penetration testing tasks. Always ensure you have proper authorization before proceeding.
+**Follow the on-screen prompts to perform penetration testing tasks. Always ensure you have proper authorization before proceeding.**
 
-## Uninstallation
+# Uninstallation
 
-To remove FR_UNI:
+## To remove FR_UNI:
 
-Delete the cloned repository:
+**Delete the cloned repository:**
 
 `rm -rf /path/to/FR_UNI`
 
-Optionally, uninstall dependencies:
+**Optionally, uninstall dependencies:**
 
 `pip3 uninstall -r requirements.txt`
 
-## Troubleshooting
+# Troubleshooting
 
 `Permission Denied: Ensure you have appropriate permissions for installation and execution.`
 
