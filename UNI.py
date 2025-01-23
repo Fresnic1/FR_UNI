@@ -10,7 +10,7 @@ def run_keylogger():
 
 def main():
     print("Select the script you want to run:")
-    print("1. KeyLogger")
+    print("1. KeyLogger (Alpha)")
 
     choice = input("Enter the number of your choice: ")
 
