@@ -19,3 +19,181 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Terms and Conditions
+
+This License Agreement ("Agreement") is a legal agreement between you ("User") and Fresnic ("Developer") for the use of the penetration testing tool "FR_UNI" ("Software"). By downloading, installing, or using this Software, you agree to be bound by the terms and conditions outlined below. If you do not agree to these terms, do not use the Software.
+
+## General Terms
+
+Purpose of Use: The Software is strictly intended for ethical penetration testing and security assessment purposes.
+
+Prohibited Use: Unauthorized use of the Software for illegal activities, including hacking without proper authorization, is strictly prohibited.
+
+Ownership: All intellectual property rights of the Software remain with the Developer.
+
+License Grant: The Developer grants a non-exclusive, non-transferable, and revocable license to use the Software under the terms of this Agreement.
+
+License Restrictions: The User may not reverse engineer, decompile, or disassemble the Software.
+
+Modifications: Users are prohibited from modifying, adapting, or creating derivative works based on the Software.
+
+Redistribution: The Software may not be redistributed, sublicensed, or shared with third parties without explicit written consent from the Developer.
+
+Compliance: Users must comply with all applicable laws and regulations while using the Software.
+
+Disclaimer: The Software is provided "as is" without any warranties, express or implied.
+
+Limitation of Liability: The Developer shall not be liable for any damages arising from the use of the Software.
+
+## Usage Requirements
+
+Authorization: Users must obtain explicit permission from the system owner before performing any tests.
+
+Age Restriction: Users must be at least 18 years old or of legal age in their jurisdiction to use the Software.
+
+Training: Users must possess sufficient knowledge and expertise in ethical hacking and cybersecurity before using the Software.
+
+Documentation: Users are encouraged to review all accompanying documentation before using the Software.
+
+User Responsibility: Users are fully responsible for their actions while using the Software.
+
+## Software Updates
+
+Automatic Updates: The Software may include automatic updates, which the User agrees to receive.
+
+Compatibility: The Developer does not guarantee compatibility with all systems and configurations.
+
+Support: The Developer may provide limited support for the Software at their discretion.
+
+Discontinuation: The Developer reserves the right to discontinue support or updates at any time.
+
+## Security
+
+Confidentiality: Users must not use the Software to access, share, or disclose confidential information without authorization.
+
+Data Integrity: Users must ensure the integrity and confidentiality of any data accessed during penetration tests.
+
+Reporting: Users are encouraged to report security vulnerabilities to system owners responsibly.
+
+Malware Prohibition: The Software must not be used to develop, distribute, or deploy malicious code.
+
+Network Impact: Users must avoid actions that could disrupt or harm networks or systems.
+
+## Legal Compliance
+
+Jurisdiction: This Agreement is governed by the laws of [Your Country/Region].
+
+Export Control: The Software may be subject to export controls and restrictions.
+
+Government Use: Use by government agencies is subject to the same terms and conditions as other users.
+
+Audit Rights: The Developer reserves the right to audit User compliance with these terms.
+
+Breach: Any violation of these terms may result in immediate termination of the license.
+
+## Miscellaneous
+
+No Partnership: This Agreement does not create a partnership or joint venture between the User and the Developer.
+
+Severability: If any provision of this Agreement is deemed invalid, the remaining terms shall remain in effect.
+
+Entire Agreement: This Agreement constitutes the entire agreement between the parties.
+
+Amendments: The Developer may update this Agreement, and Users will be notified of any significant changes.
+
+Termination: The Developer may terminate this Agreement at any time for any reason.
+
+## Liability
+
+Indemnification: Users agree to indemnify the Developer against any claims arising from misuse of the Software.
+
+Third-Party Software: The Developer is not responsible for third-party software used in conjunction with the Software.
+
+Force Majeure: The Developer is not liable for delays or failures caused by events beyond their control.
+
+No Warranty: The Developer disclaims all warranties regarding the Software.
+
+Error Reporting: Users must report any bugs or errors to the Developer promptly.
+
+## Advanced Terms
+
+Third-Party Services: The Software may integrate with third-party services; Users must comply with those terms.
+
+Logs and Data: Users must handle log files and data responsibly and securely.
+
+Risk Assumption: Users assume all risks associated with using the Software.
+
+Sandboxing: Users are encouraged to use the Software in isolated environments.
+
+Encryption: Users must encrypt sensitive data accessed during penetration tests.
+
+## Penalties
+
+Violations: Violating these terms may result in legal action.
+
+Reporting Violations: Users must report violations of this Agreement to the Developer.
+
+Data Breaches: Users are liable for any data breaches caused by misuse of the Software.
+
+Termination: Misuse may lead to immediate termination of access.
+
+## Feedback
+
+Suggestions: Users may submit suggestions, which the Developer may use without obligation.
+
+Acknowledgment: Contributions to the Software do not grant ownership rights.
+
+## Additional Terms (51-75)
+
+The Software must not be used for espionage purposes.
+
+Users agree not to use the Software to access classified systems.
+
+Users must respect intellectual property rights of third parties.
+
+The Software must not be used in conflict zones without explicit permission.
+
+Users are required to maintain logs of their testing activities.
+
+Unauthorized distribution of the Software is prohibited.
+
+The Developer reserves the right to monitor usage remotely.
+
+Users must comply with ethical hacking standards set by global organizations.
+
+The Software must not be used to harm individuals or organizations.
+
+Users agree to provide accurate information during registration.
+
+The Software cannot be used to bypass government surveillance systems.
+
+Users must inform affected parties of discovered vulnerabilities.
+
+Reverse engineering of security measures in the Software is prohibited.
+
+Users must delete sensitive data after completing tests.
+
+Collaboration with other users must adhere to this Agreement.
+
+The Software must not be sold or resold.
+
+The Software must not be used in countries under embargo.
+
+Users are responsible for ensuring their testing complies with GDPR, CCPA, or other privacy laws.
+
+Any disputes must be resolved through arbitration.
+
+Users must not attempt to exploit the Software for competitive purposes.
+
+Users must not impersonate the Developer when using the Software.
+
+Users agree to share testing results with affected parties if requested.
+
+The Developer may include User feedback in future updates.
+
+The Software must not be used to disrupt emergency services.
+
+Users must use the Software in compliance with international cybersecurity standards.
+
+## By using FR_UNI, you agree to all the terms and conditions outlined in this Agreement. For any questions, contact [https://github.com/Fresnic1].
