@@ -185,5 +185,5 @@ Dependencies: Listed in `requirements.txt`
 
 `pip3 install --force-reinstall -r requirements.txt`
 
-`Contact Support: For further assistance, reach out to [https://github.com/Fresnic1].`
+`Contact Support: For further assistance, reach out to [fr.root85@gmail.com].`
 
