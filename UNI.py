@@ -1,15 +1,22 @@
 import os
 import pyfiglet
 from colorama import Fore
+import sys
+
+# Ensure the Errors module can be imported
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from Errors.FR_Errors import get_error_message
 
 text = pyfiglet.figlet_format("FR_UNI")
 print(Fore.BLUE + text)
 
 def run_keylogger():
-    os.system('python scripts/FR_KeyLogger/KeyLog.py')
+    command = 'python scripts/FR_KeyLogger/KeyLog.py' if os.name == 'nt' else 'python3 scripts/FR_KeyLogger/KeyLog.py'
+    os.system(command)
 
 def run_netscan():
-    os.system('python scripts/FR_NetScan/NetScan.py')
+    command = 'python scripts/FR_NetScan/NetScan.py' if os.name == 'nt' else 'python3 scripts/FR_NetScan/NetScan.py'
+    os.system(command)
 
 def main():
     print("Select the script you want to run:")
@@ -23,7 +30,7 @@ def main():
     elif choice == '2':
         run_netscan()
     else:
-        print('\033[31mError code: 001\033[0m {Choose a valid option}')
+        print(get_error_message("001"))
 
 if __name__ == "__main__":
     main()

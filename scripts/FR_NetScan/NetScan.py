@@ -33,10 +33,9 @@ ip_add_range_pattern = re.compile(r"^(?:[0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]*$")
 while True:
     ip_add_range_entered = input("\nPlease enter the IP address and range that you want to send the ARP request to (ex 192.168.1.0/24): ")
     if ip_add_range_pattern.search(ip_add_range_entered):
-        print(f"{ip_add_range_entered} is a valid IP address range")
         break
     else:
-        print(f'\033[31mError code: 001\033[0m {get_error_message("001")}')
+        print(f'{get_error_message("001")}')
 
 # Generate a filename with the current date and time
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

