@@ -42,7 +42,7 @@ Dependencies: Listed in `requirements.txt`
 
 **Clone the Repository:**
 
-`git clone https://github.com/your-repository/FR_UNI.git`
+`git clone https://github.com/Fresnic1/FR_UNI.git`
 `cd FR_UNI`
 
 **Install Dependencies:**
@@ -67,7 +67,7 @@ Dependencies: Listed in `requirements.txt`
 
 **Clone the Repository:**
 
-`git clone https://github.com/your-repository/FR_UNI.git cd FR_UNI`
+`git clone https://github.com/Fresnic1/FR_UNI.git cd FR_UNI`
 
 **Install Dependencies:**
 
@@ -89,7 +89,7 @@ Dependencies: Listed in `requirements.txt`
 
 **Clone the Repository:**
 
-`git clone https://github.com/your-repository/FR_UNI.git`
+`git clone https://github.com/Fresnic1/FR_UNI.git`
 `cd FR_UNI`
 
 **Install Dependencies:**
@@ -112,7 +112,7 @@ Dependencies: Listed in `requirements.txt`
 
 **Clone the Repository:**
 
-`git clone https://github.com/your-repository/FR_UNI.git`
+`git clone https://github.com/Fresnic1/FR_UNI.git`
 `cd FR_UNI`
 
 **Install Dependencies:**
@@ -123,7 +123,7 @@ Dependencies: Listed in `requirements.txt`
 
 `python3 fr_uni.py`
 
-```Windows```
+## Windows
 
 **Install Python:**
 
@@ -139,7 +139,7 @@ Dependencies: Listed in `requirements.txt`
 
 *Open Command Prompt or PowerShell and run:*
 
-`git clone https://github.com/your-repository/FR_UNI.git`
+`git clone https://github.com/Fresnic1/FR_UNI.git`
 `cd FR_UNI`
 
 **Install Dependencies:**
