@@ -33,4 +33,7 @@ def main():
         print(get_error_message("001"))
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print(get_error_message("005"))

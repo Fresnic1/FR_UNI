@@ -1,0 +1,5 @@
+001: Invalid input
+002: Must run as root or administrator
+003: File does not exist
+004: Connection failure
+005: User manually closed the script [CTRL+C]

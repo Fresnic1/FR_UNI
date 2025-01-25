@@ -5,6 +5,11 @@ import time
 import pyfiglet
 from colorama import Fore
 import socket
+import sys
+
+# Ensure the Errors module can be imported
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
+from Errors.FR_Errors import get_error_message
 
 text = pyfiglet.figlet_format("FR_UNI KeyLogger")
 print(Fore.BLUE + text)
