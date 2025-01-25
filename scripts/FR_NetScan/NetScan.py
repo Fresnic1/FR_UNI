@@ -2,13 +2,33 @@ import scapy.all as scapy
 import re
 import os
 from datetime import datetime
+import sys
+
+# Ensure the Errors module can be imported
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
+from Errors.FR_Errors import get_error_message
+
+def is_admin():
+    try:
+        return os.geteuid() == 0
+    except AttributeError:
+        # Windows check for admin privileges
+        import ctypes
+        try:
+            return ctypes.windll.shell32.IsUserAnAdmin()
+        except:
+            return False
+
+# Check for root/administrator privileges
+if not is_admin():
+    sys.exit(get_error_message("002"))
 
 # Create IP_Logs directory if it doesn't exist
 log_dir = os.path.join(os.path.dirname(__file__), 'IP_Logs')
 if not os.path.exists(log_dir):
     os.makedirs(log_dir)
 
-ip_add_range_pattern = re.compile("^(?:[0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]*$")
+ip_add_range_pattern = re.compile(r"^(?:[0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]*$")
 
 while True:
     ip_add_range_entered = input("\nPlease enter the IP address and range that you want to send the ARP request to (ex 192.168.1.0/24): ")
@@ -16,7 +36,7 @@ while True:
         print(f"{ip_add_range_entered} is a valid IP address range")
         break
     else:
-        print('\033[31mError code: 001\033[0m {Choose a valid IP address range}')
+        print(f'\033[31mError code: 001\033[0m {get_error_message("001")}')
 
 # Generate a filename with the current date and time
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
