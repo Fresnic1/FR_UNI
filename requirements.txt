@@ -2,3 +2,5 @@ pynput
 pyfiglet
 colorama
 os-sys
+scapy
+requests
