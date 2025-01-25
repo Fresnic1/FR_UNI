@@ -123,7 +123,7 @@ Dependencies: Listed in `requirements.txt`
 
 `python3 fr_uni.py`
 
-```Windows```
+## Windows
 
 **Install Python:**
 
