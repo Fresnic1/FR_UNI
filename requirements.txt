@@ -1,6 +1,11 @@
 pynput
 pyfiglet
 colorama
-os-sys
 scapy
 requests
+socket
+datetime
+subprocess
+time
+importlib
+os-sys
