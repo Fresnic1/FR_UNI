@@ -3,3 +3,5 @@
 003: File does not exist
 004: Connection failure
 005: User manually closed the script [CTRL+C]
+006: Missing packages
+007: IP range selected is unreachable
