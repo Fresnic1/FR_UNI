@@ -9,3 +9,4 @@ subprocess
 time
 importlib
 os-sys
+django>=4.2.24 # not directly required, pinned by Snyk to avoid a vulnerability
